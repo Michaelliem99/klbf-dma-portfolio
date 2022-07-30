@@ -45,6 +45,51 @@ body {
   font-size: 25px;
 }
 
+.project-container label {
+  width: 100%;
+}
+
+.project-container .project-item {
+  display: none;
+}
+
+.project-container .project-item:hover {
+  cursor: pointer;
+}
+
+.project-container .project-item:checked + .card-project {
+  opacity: 1;
+}
+
+.project-container .card-project {
+  border-radius: 15px;
+  background-color: #58af47;
+  opacity: 0.7;
+  height: 250px;
+}
+
+.project-container .card-project:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.project-container .active-project {
+  opacity: 1;
+}
+
+.project-container .active-project:hover {
+  opacity: 1;
+}
+
+.project-container img {
+  margin-top: 10px;
+}
+
+.project-container h5 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
 .flex-parent {
   display: -webkit-box;
   display: -ms-flexbox;
