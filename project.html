@@ -61,7 +61,7 @@
     <h3>Data Analytics Framework</h3>
     <div class="d-flex flex-row">
       <label>
-        <input type="radio" name="project" selected checked class="project-item">
+        <input type="radio" name="project" selected checked class="project-item" value="descriptive">
         <div class="p-3 m-2 text-center text-white card-project" id="project-item">
           <img src="./assets/Home - Icon Descriptive.svg" alt="">
           <h5>Descriptive</h5>
@@ -69,7 +69,7 @@
         </div>
       </label>
       <label>
-        <input type="radio" name="project" class="project-item">
+        <input type="radio" name="project" class="project-item" value="diagnostic">
         <div class="p-3 m-2 text-center text-white card-project" id="project-item">
           <img src="./assets/Home - Icon Descriptive.svg" alt="">
           <h5>Diagnostic</h5>
@@ -77,7 +77,7 @@
         </div>
       </label>
       <label>
-        <input type="radio" name="project" class="project-item">
+        <input type="radio" name="project" class="project-item" value="predictive">
         <div class="p-3 m-2 text-center text-white card-project" id="project-item">
           <img src="./assets/Home - Icon Descriptive.svg" alt="">
           <h5>Predictive</h5>
@@ -85,7 +85,7 @@
         </div>
       </label>
       <label>
-        <input type="radio" name="project" class="project-item">
+        <input type="radio" name="project" class="project-item" value="prescriptive">
         <div class="p-3 m-2 text-center text-white card-project" id="project-item">
           <img src="./assets/Home - Icon Descriptive.svg" alt="">
           <h5>Prescriptive</h5>
@@ -93,7 +93,7 @@
         </div>
       </label>
       <label>
-        <input type="radio" name="project" class="project-item">
+        <input type="radio" name="project" class="project-item" value="preemptive">
         <div class="p-3 m-2 text-center text-white card-project" id="project-item">
           <img src="./assets/Home - Icon Descriptive.svg" alt="">
           <h5>Pre-emptive</h5>
@@ -104,77 +104,97 @@
   </div>
 
   <div class="container mt-5 mb-3">
-    <h3>Descriptive Analytics Project</h3>
-    <div class="row mt-3">
+    <h3 id="project-category-title">Descriptive Analytics Project</h3>
+    <div class="row mt-3 container-descriptive" id="container-descriptive">
       <div class="col-lg-4 mb-3">
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="./assets/card-image.png" alt="Card image cap">
+        <div class="card card-default card-input">
+          <div class="card-header font-weight-bold">Outlet Coverage</div>
           <div class="card-body">
-            <p class="card-title">Judul Project</p>
-            <p class="card-subtitle mb-2 text-muted">24 February 2018</p>
-            <p class="card-text">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis maxime consequuntur minus nulla, natus veniam.
-            </p>
+            <p class="">Marketing</p>
+            <a href="" class="text-decoration-none read-more">Read More ></a>
           </div>
         </div>
       </div>
       <div class="col-lg-4 mb-3">
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="./assets/card-image.png" alt="Card image cap">
+        <div class="card card-default card-input">
+          <div class="card-header font-weight-bold">Outlet Segmentation</div>
           <div class="card-body">
-            <p class="card-title">Judul Project</p>
-            <p class="card-subtitle mb-2 text-muted">24 February 2018</p>
-            <p class="card-text">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis maxime consequuntur minus nulla, natus veniam.
-            </p>
+            <p class="">Marketing</p>
+            <a href="" class="text-decoration-none read-more">Read More ></a>
           </div>
         </div>
       </div>
       <div class="col-lg-4 mb-3">
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="./assets/card-image.png" alt="Card image cap">
+        <div class="card card-default card-input">
+          <div class="card-header font-weight-bold">Products Profilling in Marketplace</div>
           <div class="card-body">
-            <p class="card-title">Judul Project</p>
-            <p class="card-subtitle mb-2 text-muted">24 February 2018</p>
-            <p class="card-text">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis maxime consequuntur minus nulla, natus veniam.
-            </p>
+            <p class="">Marketing</p>
+            <a href="" class="text-decoration-none read-more">Read More ></a>
           </div>
         </div>
       </div>
       <div class="col-lg-4 mb-3">
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="./assets/card-image.png" alt="Card image cap">
+        <div class="card card-default card-input">
+          <div class="card-header font-weight-bold">Potential Market for Specified Products</div>
           <div class="card-body">
-            <p class="card-title">Judul Project</p>
-            <p class="card-subtitle mb-2 text-muted">24 February 2018</p>
-            <p class="card-text">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis maxime consequuntur minus nulla, natus veniam.
-            </p>
+            <p class="">Marketing</p>
+            <a href="" class="text-decoration-none read-more">Read More ></a>
           </div>
         </div>
       </div>
       <div class="col-lg-4 mb-3">
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="./assets/card-image.png" alt="Card image cap">
+        <div class="card card-default card-input">
+          <div class="card-header font-weight-bold">Salesperson Monitoring</div>
           <div class="card-body">
-            <p class="card-title">Judul Project</p>
-            <p class="card-subtitle mb-2 text-muted">24 February 2018</p>
-            <p class="card-text">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis maxime consequuntur minus nulla, natus veniam.
-            </p>
+            <p class="">Marketing</p>
+            <a href="" class="text-decoration-none read-more">Read More ></a>
           </div>
         </div>
       </div>
       <div class="col-lg-4 mb-3">
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="./assets/card-image.png" alt="Card image cap">
+        <div class="card card-default card-input">
+          <div class="card-header font-weight-bold">Employee Engagement</div>
           <div class="card-body">
-            <p class="card-title">Judul Project</p>
-            <p class="card-subtitle mb-2 text-muted">24 February 2018</p>
-            <p class="card-text">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis maxime consequuntur minus nulla, natus veniam.
-            </p>
+            <p class="">Human Resources</p>
+            <a href="" class="text-decoration-none read-more">Read More ></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-3">
+        <div class="card card-default card-input">
+          <div class="card-header font-weight-bold">Employee Profilling</div>
+          <div class="card-body">
+            <p class="">Human Resources</p>
+            <a href="" class="text-decoration-none read-more">Read More ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-3 container-predictive" id="container-predictive">
+      <div class="col-lg-4 mb-3">
+        <div class="card card-default card-input">
+          <div class="card-header font-weight-bold">Product Recommendation System</div>
+          <div class="card-body">
+            <p class="">Marketing</p>
+            <a href="" class="text-decoration-none read-more">Read More ></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-3">
+        <div class="card card-default card-input">
+          <div class="card-header font-weight-bold">Route Optimization</div>
+          <div class="card-body">
+            <p class="">Marketing</p>
+            <a href="" class="text-decoration-none read-more">Read More ></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-3">
+        <div class="card card-default card-input">
+          <div class="card-header font-weight-bold">Sales Forecast</div>
+          <div class="card-body">
+            <p class="">Marketing</p>
+            <a href="" class="text-decoration-none read-more">Read More ></a>
           </div>
         </div>
       </div>

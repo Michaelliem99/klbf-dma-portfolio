@@ -90,6 +90,20 @@ body {
   margin-bottom: 10px;
 }
 
+.read-more {
+  color: #7fc241;
+}
+
+.read-more:hover {
+  color: #006c3a;
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
+}
+
+.container-predictive {
+  display: none;
+}
+
 .flex-parent {
   display: -webkit-box;
   display: -ms-flexbox;
