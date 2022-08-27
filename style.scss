@@ -1,6 +1,7 @@
 $dark_green: #006c3a;
 $light_green: #7fc241;
 $item_green: #58af47;
+$blue: #458fba;
 
 body{
   margin: 0;
@@ -508,4 +509,17 @@ body{
       }
     }
   }
+}
+
+
+.text-blue{
+  color: $blue;
+}
+
+.medium-text-size{
+  font-size: 24px;
+}
+
+.medium-bold{
+  font-weight: 500;
 }

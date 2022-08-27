@@ -537,4 +537,16 @@ body {
   -webkit-transform: translate(-8px, -50%);
           transform: translate(-8px, -50%);
 }
+
+.text-blue {
+  color: #458fba;
+}
+
+.medium-text-size {
+  font-size: 24px;
+}
+
+.medium-bold {
+  font-weight: 500;
+}
 /*# sourceMappingURL=style.css.map */
