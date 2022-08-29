@@ -471,7 +471,7 @@ body {
   float: left;
   text-align: left;
   padding-left: 180px;
-  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .timeline .entries .entry {
