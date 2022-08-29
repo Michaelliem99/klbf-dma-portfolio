@@ -89,6 +89,10 @@ body {
   margin-bottom: 10px;
 }
 
+.project-container p{
+  font-size: 16px;
+}
+
 .read-more {
   color: #7fc241;
 }
@@ -547,5 +551,15 @@ body {
 
 .medium-bold {
   font-weight: 500;
+}
+
+.btn-contact {
+  background-color: #7fc241;
+}
+
+.btn-contact:hover {
+  background-color: #006c3a;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 /*# sourceMappingURL=style.css.map */

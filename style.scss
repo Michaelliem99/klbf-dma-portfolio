@@ -453,7 +453,7 @@ body{
       float: left;
       text-align: left;
       padding-left: 180px;
-      padding-top: 50px;
+      padding-bottom: 50px;
     }
 
     .entry {
@@ -522,4 +522,13 @@ body{
 
 .medium-bold{
   font-weight: 500;
+}
+
+.btn-contact{
+  background-color: $light_green;
+
+  &:hover{
+    background-color: $dark_green;
+    transition: 0.5s;
+  }
 }
