@@ -426,7 +426,7 @@ body{
     content: '';
     position: absolute;
     top:670px;
-    height: 1000px;
+    height: 1180px;
     left:50%;
     bottom:0px;
     transform:translateX(-50%);
@@ -516,6 +516,10 @@ body{
   color: $blue;
 }
 
+.text-green{
+  color: $item_green;
+}
+
 .medium-text-size{
   font-size: 24px;
 }
@@ -530,5 +534,25 @@ body{
   &:hover{
     background-color: $dark_green;
     transition: 0.5s;
+  }
+}
+
+.users-container{
+  span{
+    width: 250px;
+    display:inline-block;
+    border-bottom:1px solid $item_green;
+    padding-bottom:1px;;
+  }
+
+  .long-span{
+    width: 370px;
+  }
+  h5{
+    color: $item_green;
+  }
+
+  .img-user-container{
+    border: 1px solid #e0e0e0;
   }
 }
