@@ -72,6 +72,10 @@ body {
   cursor: pointer;
 }
 
+.project-container .card-project p {
+  font-size: 16px;
+}
+
 .project-container .active-project {
   opacity: 1;
 }
@@ -97,6 +101,10 @@ body {
   color: #006c3a;
   -webkit-transition: ease 0.5s;
   transition: ease 0.5s;
+}
+
+.container-diagnostic {
+  display: none;
 }
 
 .container-predictive {

@@ -16,24 +16,26 @@ $(function(){
 $('input[type=radio]').click(function(e){
 	var radioValue = $("input[name='project']:checked").val();
 	var containerDescriptive = document.getElementById('container-descriptive');
+	var containerDiagnostic = document.getElementById('container-diagnostic');
 	var containerPredictive = document.getElementById('container-predictive');
 
 	var title = $('#project-category-title');
 
 	if(radioValue == 'descriptive'){
-		containerDescriptive.style.display = 'flex'
+		containerDescriptive.style.display = 'flex';
 		containerPredictive.style.display = 'none';
+		containerDiagnostic.style.display = 'none';
 		title.text("Descriptive Analytics Use Case");
 	}else if(radioValue == 'diagnostic'){
+		containerDescriptive.style.display = 'none'
+		containerPredictive.style.display = 'none';
+		containerDiagnostic.style.display = 'flex';
 		title.text("Diagnostic Analytics Use Case");
 	}else if(radioValue == 'predictive'){
-		containerPredictive.style.display = 'flex'
-		containerDescriptive.style.display = 'none';
+		containerDescriptive.style.display = 'none'
+		containerPredictive.style.display = 'flex';
+		containerDiagnostic.style.display = 'none';
 		title.text("Predictive Analytics Use Case");
-	}else if(radioValue == 'prescriptive'){
-		title.text("Prescriptive Analytics Use Case");
-	}else if(radioValue == 'preemptive'){
-		title.text("Preemptive Analytics Use Case");
 	}
 })
 

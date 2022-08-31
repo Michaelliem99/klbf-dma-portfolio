@@ -29,14 +29,14 @@
         <li class="nav-item">
           <a class="nav-link" href="about-us.html">About Us</a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link" href="history.html">History</a>
-        </li>
+        </li> -->
         <li class="nav-item active">
           <a class="nav-link" href="project.html">Analytics Framework & Use Case</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.us">Contact Us</a>
+          <a class="nav-link" href="contact.html">Contact Us</a>
         </li>
       </ul>
     </div>
@@ -90,6 +90,7 @@
     </div>
   </div>
 
+  <!-- DESCRIPTIVE -->
   <div class="container mt-5 mb-3">
     <h3 id="project-category-title">Descriptive Analytics Use Case</h3>
     <div class="row mt-3 container-descriptive" id="container-descriptive">
@@ -106,28 +107,52 @@
         <div class="modal-dialog modal-xl" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Outlet Coverage</h5>
+              <h5 class="modal-title text-green" id="exampleModalLabel">Outlet Coverage</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-              <p class="font-weight-light">Marketing</p>
-              <p>
-                The number of outlets getting covered by a business within his quota of outlets to be covered in a specified time frame. 
-                <br>
-                Case : Coverage of Hospital Outlets when compared to the population of Hospitals in Indonesia.
-              </p>
-              <p>HJ, FIMA, EMP</p>
               <div class="row">
                 <div class="col-lg-4">
-                  <img src="./assets/logo-fima.png" class="p-2" width="100%">
+                  <img src="./assets/pop-up-illustration/outlet-coverage.png" alt="" width="400px" height="300px">
                 </div>
-                <div class="col-lg-4">
-                  <img src="./assets/logo-fima.png" class="p-2" width="100%">
-                </div>
-                <div class="col-lg-4">
-                  <img src="./assets/logo-fima.png" class="p-2" width="100%">
+                <div class="col-lg-8">
+                  <p class="text-green medium-text-size medium-bold">
+                    <b>Outlet Coverage</b> is the number of outlets getting covered by a business within his quota of outlets to be covered in a specified time frame. 
+                  </p>
+                  <p>
+                    <b>There are number of reasons why outlet coverage is an important process for businesses:</b>
+                    <ul>
+                      <li>
+                        Controlling and increase salesman effectiveness.
+                      </li>
+                      <li>
+                        Help management to keep track their achievement, which may improve the consistency and reliability of sales.
+                      </li>
+                      <li>
+                        Shorten operational duration. 
+                      </li>
+                    </ul>
+                  </p>
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <h3 class="text-green">Benefit & Value :</h3>
+                      <ul>
+                        <li>More accurate demand forecast based on proven statistical method</li>
+                        <li>Reduce stock-out and overstocking</li>
+                        <li>Minimize lost business due to out of stock</li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-6">
+                      <h3 class="text-green">Our Focus :</h3>
+                      <ul>
+                        <li>
+                          How much is the achievement between the target and actual. 
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -139,7 +164,68 @@
           <div class="card-header font-weight-bold">Outlet Segmentation</div>
           <div class="card-body">
             <p class="">Marketing</p>
-            <a href="" class="text-decoration-none read-more">Read More ></a>
+            <a href="" class="text-decoration-none read-more" data-toggle="modal" data-target="#modalOutletSegmentation">Read More ></a>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="modalOutletSegmentation" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title text-green" id="exampleModalLabel">Outlet Segmentation</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-lg-4">
+                  <img src="./assets/pop-up-illustration/outlet-segmentation.png" alt="" width="400px" height="300px">
+                </div>
+                <div class="col-lg-8">
+                  <p class="text-green medium-text-size medium-bold">
+                    <b>Outlet Segmentation</b> is the process by which we divided our customers (outlets) up based on common characteristics.
+                  </p>
+                  <p>
+                    <b>There are number of reasons why outlet segmentation is an important, including:</b>
+                    <ul>
+                      <li>
+                        Makes marketing plans easier.
+                      </li>
+                      <li>
+                        Helps company to focus on certain outlets group instead of targeting mass market.
+                      </li>
+                      <li>
+                        Allows company to learn more about customers. 
+                      </li>
+                    </ul>
+                  </p>
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <h3 class="text-green">Benefit & Value :</h3>
+                      <ul>
+                        <li>Retention of customer</li>
+                        <li>Wise and efficient use of resources</li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-6">
+                      <h3 class="text-green">Our Focus :</h3>
+                      <ul>
+                        <li>
+                          <b>Recency:</b> The freshness of the outlet purchases 
+                        </li>
+                        <li>
+                          <b>Frequency:</b> The frequency of the outlet transactions
+                        </li>
+                        <li>
+                          <b>Monetary:</b> The purchasing power of outlet
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -148,34 +234,64 @@
           <div class="card-header font-weight-bold">Products Profilling in Marketplace</div>
           <div class="card-body">
             <p class="">Marketing</p>
-            <a href="" class="text-decoration-none read-more">Read More ></a>
+            <a href="" class="text-decoration-none read-more" data-toggle="modal" data-target="#modalProductsProfiling">Read More ></a>
           </div>
         </div>
       </div>
-      <div class="col-lg-4 mb-3">
-        <div class="card card-default card-input">
-          <div class="card-header font-weight-bold">Potential Market for Specified Products</div>
-          <div class="card-body">
-            <p class="">Marketing</p>
-            <a href="" class="text-decoration-none read-more">Read More ></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 mb-3">
-        <div class="card card-default card-input">
-          <div class="card-header font-weight-bold">Salesperson Monitoring</div>
-          <div class="card-body">
-            <p class="">Marketing</p>
-            <a href="" class="text-decoration-none read-more">Read More ></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 mb-3">
-        <div class="card card-default card-input">
-          <div class="card-header font-weight-bold">Employee Engagement</div>
-          <div class="card-body">
-            <p class="">Human Resources</p>
-            <a href="" class="text-decoration-none read-more">Read More ></a>
+      <div class="modal fade" id="modalProductsProfiling" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title text-green" id="exampleModalLabel">Products Profilling in Marketplace</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-lg-4">
+                  <img src="./assets/pop-up-illustration/product-profiling-in-marketplace.svg" alt="" width="400px" height="300px">
+                </div>
+                <div class="col-lg-8">
+                  <p class="text-green medium-text-size medium-bold">
+                    <b>Product profiling</b> is a sales overview of our products in marketplace.
+                  </p>
+                  <p>
+                    <b>There are number of reasons why product profiling is an important, including:</b>
+                    <ul>
+                      <li>
+                        Identifies our product profiles in marketplace
+                      </li>
+                      <li>
+                        Helps company to determine the business strategy
+                      </li>
+                    </ul>
+                  </p>
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <h3 class="text-green">Benefit & Value :</h3>
+                      <ul>
+                        <li>Maximizing product selling in marketplace</li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-6">
+                      <h3 class="text-green">Our Focus :</h3>
+                      <ul>
+                        <li>
+                          Number of products sold in each marketplace
+                        </li>
+                        <li>
+                          Sales price in each marketplace
+                        </li>
+                        <li>
+                          Seller location
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -184,18 +300,271 @@
           <div class="card-header font-weight-bold">Employee Profilling</div>
           <div class="card-body">
             <p class="">Human Resources</p>
-            <a href="" class="text-decoration-none read-more">Read More ></a>
+            <a href="" class="text-decoration-none read-more" data-toggle="modal" data-target="#modalEmployeeProfiling">Read More ></a>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="modalEmployeeProfiling" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title text-green" id="exampleModalLabel">Employee Profilling</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-lg-4">
+                  <img src="./assets/pop-up-illustration/employee-profiling.svg" alt="" width="400px" height="300px">
+                </div>
+                <div class="col-lg-8">
+                  <p class="text-green medium-text-size medium-bold">
+                    <b>Employee profiling</b> is the practice of organizing employee into specific groups possessing similar characteristics.
+                  </p>
+                  <p>
+                    <b>There are number of reasons why employee profiling is an important, including:</b>
+                    <ul>
+                      <li>
+                        Helps human resources division to get an overview of the employee condition.
+                      </li>
+                      <li>
+                        Helps to map the variables that need to be addressed.
+                      </li>
+                    </ul>
+                  </p>
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <h3 class="text-green">Benefit & Value :</h3>
+                      <ul>
+                        <li>Helps to monitor the employee.</li>
+                        <li>Helps human resources for recruitment process in the future.</li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-6">
+                      <h3 class="text-green">Our Focus :</h3>
+                      <ul>
+                        <li>
+                          <b>Recency:</b> The freshness of the outlet purchases 
+                        </li>
+                        <li>
+                          <b>Frequency:</b> The frequency of the outlet transactions
+                        </li>
+                        <li>
+                          <b>Monetary:</b> The purchasing power of outlet
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- DIAGNOSTIC -->
+    <div class="row mt-3 container-diagnostic" id="container-diagnostic">
+      <div class="col-lg-4 mb-3">
+        <div class="card card-default card-input">
+          <div class="card-header font-weight-bold">Product Correlation</div>
+          <div class="card-body">
+            <p class="">Marketing</p>
+            <a href="" class="text-decoration-none read-more" data-toggle="modal" data-target="#modalProductCorrelation">Read More ></a>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="modalProductCorrelation" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title text-green" id="exampleModalLabel">Product Correlation</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-lg-4">
+                  <img src="./assets/pop-up-illustration/product-correlation.svg" alt="" width="400px" height="300px">
+                </div>
+                <div class="col-lg-8">
+                  <p class="text-green medium-text-size medium-bold">
+                    <b>Product correlation </b> is the measurement of how far two products move in relation to one another.
+                  </p>
+                  <p>
+                    <b>Product correlation is an important measurement for businesses for a variety of reasons which includes:</b>
+                    <ul>
+                      <li>
+                        Understanding the dynamics of product relationships allows businesses to make more informed and effective decisions.
+                      </li>
+                      <li>
+                        Adjusts sales strategy based on product relationship.
+                      </li>
+                      <li>
+                        Reveal interdependencies between products. 
+                      </li>
+                    </ul>
+                  </p>
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <h3 class="text-green">Benefit & Value :</h3>
+                      <ul>
+                        <li>Maximize customer engagement.</li>
+                        <li>Develop cross-selling strategies.</li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-6">
+                      <h3 class="text-green">Our Focus :</h3>
+                      <ul>
+                        <li>
+                          <b>Product placement:</b> increased sales are made possible by more effective product placement based on their relationship. 
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-3">
+        <div class="card card-default card-input">
+          <div class="card-header font-weight-bold">Product Relationship (Product Bundling)</div>
+          <div class="card-body">
+            <p class="">Marketing</p>
+            <a href="" class="text-decoration-none read-more" data-toggle="modal" data-target="#modalProductRelationship">Read More ></a>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="modalProductRelationship" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title text-green" id="exampleModalLabel">Product Relationship (Product Bundling)</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-lg-4">
+                  <img src="./assets/pop-up-illustration/product-relationship.svg" alt="" width="400px" height="400px">
+                </div>
+                <div class="col-lg-8">
+                  <p class="text-green medium-text-size medium-bold">
+                    <b>Product relationship</b> is the process of grouping together several products based on their complimentary relationship.
+                  </p>
+                  <p>
+                    <b>Product relationships are important for businesses for a variety of reasons, including:</b>
+                    <ul>
+                      <li>
+                        Assist consumers in reducing decision-making stress.
+                      </li>
+                      <li>
+                        Assist businesses in increasing sales and profits.
+                      </li>
+                      <li>
+                        Give customers more value for a single purchase than they would if they bought individual products.
+                      </li>
+                    </ul>
+                  </p>
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <h3 class="text-green">Benefit & Value :</h3>
+                      <ul>
+                        <li>
+                          Persuade customers to purchase more products.
+                        </li>
+                        <li>
+                          Reduces marketing and distribution expenses.
+                        </li>
+                        <li>
+                          Increase inventory clearance.
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-6">
+                      <h3 class="text-green">Our Focus :</h3>
+                      <ul>
+                        <li>
+                          <b>Customer purchase pattern:</b> Combine related products based on customer buying habits to increase product appeal.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PREDICTIVE -->
     <div class="row mt-3 container-predictive" id="container-predictive">
       <div class="col-lg-4 mb-3">
         <div class="card card-default card-input">
           <div class="card-header font-weight-bold">Product Recommendation System</div>
           <div class="card-body">
             <p class="">Marketing</p>
-            <a href="" class="text-decoration-none read-more">Read More ></a>
+            <a href="" class="text-decoration-none read-more" data-toggle="modal" data-target="#modalProductRecommendation">Read More ></a>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="modalProductRecommendation" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title text-green" id="exampleModalLabel">Product Recommendation System</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-lg-4">
+                  <img src="./assets/pop-up-illustration/product-recommendation-system.svg" alt="" width="400px" height="300px">
+                </div>
+                <div class="col-lg-8">
+                  <p class="text-green medium-text-size medium-bold">
+                    <b>A product recommendation engine</b> is a system that helps offer a personalized purchase experience to every individual customer based on user preferences and historical purchase data.
+                  </p>
+                  <p>
+                    <b>There are number of reasons why product recommendation system is an important process for businesses :</b>
+                    <ul>
+                      <li>
+                        Every popular e-commerce website nowadays has a recommendation system built in their website.
+                      </li>
+                      <li>
+                        It has also proved to increase revenues and increase customer loyalty to the company.
+                      </li>
+                    </ul>
+                  </p>
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <h3 class="text-green">Benefit & Value :</h3>
+                      <ul>
+                        <li>Personalized purchase experience for every customer</li>
+                        <li>Helps convert browsers into buyers</li>
+                        <li>Offering more cross-selling and upselling opportunities</li>
+                        <li>Introduce customer to enticing products they haven't considered</li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-6">
+                      <h3 class="text-green">Our Focus :</h3>
+                      <ul>
+                        <li>
+                          <b>Recommendation Accuracy:</b> better accuracy in the recommendation helps increase revenues for the company and to keep customer loyal. 
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -204,7 +573,60 @@
           <div class="card-header font-weight-bold">Route Optimization</div>
           <div class="card-body">
             <p class="">Marketing</p>
-            <a href="" class="text-decoration-none read-more">Read More ></a>
+            <a href="" class="text-decoration-none read-more" data-toggle="modal" data-target="#modalRouteOptimization">Read More ></a>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="modalRouteOptimization" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title text-green" id="exampleModalLabel">Route Optimization</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-lg-4">
+                  <img src="./assets/pop-up-illustration/route-optimization.svg" alt="" width="400px" height="400px">
+                </div>
+                <div class="col-lg-8">
+                  <p class="text-green medium-text-size medium-bold">
+                    <b>Route optimization</b> provides salesman with the best hospitals to visit for their biweekly visitation plan and its optimal visit route based on shortest route concept.
+                  </p>
+                  <p>
+                    <b>There are number of reasons why route optimization system is an important process for businesses :</b>
+                    <ul>
+                      <li>
+                        Route optimization helps sales manager in creating a visit plan for salesman from dozens of hospitals to choose from based on specific criteria and survey results.
+                      </li>
+                    </ul>
+                  </p>
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <h3 class="text-green">Benefit & Value :</h3>
+                      <ul>
+                        <li>
+                          Automation of visit plan creation based on specific criteria and survey results every 2 weeks.
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-6">
+                      <h3 class="text-green">Our Focus :</h3>
+                      <ul>
+                        <li>
+                          <b>Outlet Choosing Accuracy:</b> better accuracy in choosing which outlet to visit will increase the salesman performance.
+                        </li>
+                        <li>
+                          <b>Shortest Route:</b> shorter route helps salesman in having a more efficient travel time between each outlet.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -221,7 +643,7 @@
         <div class="modal-dialog modal-xl" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Sales and demand forecasting</h5>
+              <h5 class="modal-title text-green" id="exampleModalLabel">Route Optimization</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -229,16 +651,14 @@
             <div class="modal-body">
               <div class="row">
                 <div class="col-lg-4">
-                  <img src="./assets/sales-forecast.webp" alt="" width="350px" height="300px">
+                  <img src="./assets/pop-up-illustration/sales-and-demand-forecasting.svg" alt="" width="400px" height="300px">
                 </div>
                 <div class="col-lg-8">
                   <p class="text-green medium-text-size medium-bold">
-                    <b>Sales and demand forecasting</b> refers to making estimations about 
-                    future customer demand using historical data and other information
+                    <b>Sales and demand forecasting </b> refers to making estimations about future customer demand using historical data and other information.
                   </p>
                   <p>
-                    <b>There are number of reasons why sales and demand forecasting is an important process
-                    for businesses:</b>
+                    <b>There are number of reasons why route optimization system is an important process for businesses :</b>
                     <ul>
                       <li>
                         It allows businesses to more effectively optimize inventory, increasing turnover rates and reducing holding costs.
@@ -251,21 +671,33 @@
                       </li>
                     </ul>
                   </p>
-                  <p class="text-green medium-bold">Without demand forecasting, businesses risk making poor decisions about their products and target markets.</p>
+                  <p class="">
+                    <b>
+                      Without demand forecasting, businesses risk making poor decisions about their products and target markets.
+                    </b>
+                  </p>
                   <div class="row">
                     <div class="col-lg-6">
                       <h3 class="text-green">Benefit & Value :</h3>
                       <ul>
-                        <li>More accurate demand forecast based on proven statistical method</li>
-                        <li>Reduce stock-out and overstocking</li>
-                        <li>Minimize lost business due to out of stock</li>
+                        <li>
+                          More accurate demand forecast based on proven statistical method
+                        </li>
+                        <li>
+                          Reduce stock-out and overstocking
+                        </li>
+                        <li>
+                          Minimize lost business due to out of stock
+                        </li>
                       </ul>
                     </div>
                     <div class="col-lg-6">
                       <h3 class="text-green">Our Focus :</h3>
-                      <p>
-                        <b>Forecast Accuracy:</b> better forecast accuracy gives better support to company in taking decision of production, distribution, and supply planning.
-                      </p>
+                      <ul>
+                        <li>
+                          <b>Forecast Accuracy:</b> better forecast accuracy gives better support to company in taking decision of production, distribution, and supply planning.
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
