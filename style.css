@@ -65,7 +65,6 @@ body {
   border-radius: 15px;
   background-color: #58af47;
   opacity: 0.7;
-  height: 200px;
 }
 
 .project-container .card-project:hover {
@@ -556,6 +555,10 @@ body {
 
 .medium-text-size {
   font-size: 24px;
+}
+
+.small-text-size {
+  font-size: 18px;
 }
 
 .medium-bold {
